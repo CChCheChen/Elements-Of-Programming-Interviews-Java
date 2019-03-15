@@ -24,6 +24,20 @@ public class LinkedList {
 		return;
 	}
 	
+	public int size() {
+		int size = 0;
+		if(null == head)
+			return size;
+		
+		ListNode node = head;
+		size++;
+		while(node.next != null) {
+			node = node.next;
+			size++;
+		}
+		return size;
+	}
+	
 	public void print() {
 		if(null == head)
 			return;
