@@ -7,6 +7,7 @@ import java.util.Random;
 
 /*
 6.12 SAMPLE ONLINE DATA
+
 This problem is motivated by the design of a packet sniffer that provides a uniform sample of packets for a network session.
 
 Design a program that takes as input a size k, and reads packets, continuously maintaining a uniform random subset of size k of the read packets.
