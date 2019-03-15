@@ -1,6 +1,6 @@
 package scenario.b.FinalsCram7Days;
 
-import commonDataStructures.LinkedList;
+import commonDataStructures.LinkedListImp;
 import commonDataStructures.ListNode;
 
 /*
@@ -25,7 +25,7 @@ P123(P136)
 public class Q_08_07_Remove_kth_Last_Element_From_List {
 
 	public static void main(String[] args) {
-		LinkedList list = new LinkedList();
+		LinkedListImp list = new LinkedListImp();
 		list.addNode(1);
 		list.addNode(3);
 		list.addNode(5);
@@ -55,7 +55,7 @@ public class Q_08_07_Remove_kth_Last_Element_From_List {
 
 	//Time: O(n), n is list size
 	//Space:O(1)
-	private static void removeKthLastElement(LinkedList list, int k) {
+	private static void removeKthLastElement(LinkedListImp list, int k) {
 		ListNode p1 = list.head;
 		ListNode p2 = list.head.next;
 

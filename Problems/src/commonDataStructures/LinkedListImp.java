@@ -1,10 +1,10 @@
 package commonDataStructures;
 
-public class LinkedList {
+public class LinkedListImp {
 
 	public ListNode head;
 	
-	public LinkedList(){
+	public LinkedListImp(){
 		this.head = null;
 	}
 	

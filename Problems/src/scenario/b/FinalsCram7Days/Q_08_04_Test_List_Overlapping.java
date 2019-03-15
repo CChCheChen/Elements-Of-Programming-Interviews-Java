@@ -1,6 +1,6 @@
 package scenario.b.FinalsCram7Days;
 
-import commonDataStructures.LinkedList;
+import commonDataStructures.LinkedListImp;
 import commonDataStructures.ListNode;
 
 /*
@@ -21,7 +21,7 @@ P119(P132)
 public class Q_08_04_Test_List_Overlapping {
 
 	public static void main(String[] args) {
-		LinkedList list1 = new LinkedList();
+		LinkedListImp list1 = new LinkedListImp();
 		list1.addNode(1);
 		list1.addNode(3);
 		list1.addNode(5);
@@ -30,7 +30,7 @@ public class Q_08_04_Test_List_Overlapping {
 
 		System.out.println();
 
-		LinkedList list2 = new LinkedList();
+		LinkedListImp list2 = new LinkedListImp();
 		list2.addNode(2);
 		list2.addNode(4);
 		list2.addNode(6);
@@ -46,7 +46,7 @@ public class Q_08_04_Test_List_Overlapping {
 
 	//Time: O(m+n), m & n are lengths of linked lists, the worst case is to scan both of them and find NO overlapping
 	//Space:O(1)
-	private static boolean linkedListOverlap(LinkedList list1, LinkedList list2) {
+	private static boolean linkedListOverlap(LinkedListImp list1, LinkedListImp list2) {
 
 		ListNode head1 = list1.head;
 		ListNode head2 = list2.head;
