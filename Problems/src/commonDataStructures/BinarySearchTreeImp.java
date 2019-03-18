@@ -12,6 +12,7 @@ public class BinarySearchTreeImp {
 		this.root = null;
 	}
 
+	//Insert a Node
 	public void insertNode(int val) {
 		TreeNode node = new TreeNode(val);
 
@@ -38,7 +39,7 @@ public class BinarySearchTreeImp {
 		}
 	}
 
-	//use Binary Search
+	//Find a Node, use Binary Search
 	public TreeNode searchNode(int val) {
 		if(null == root) 
 			return null;
@@ -56,6 +57,7 @@ public class BinarySearchTreeImp {
 		return null;
 	}
 
+	//TODO:Delete a Node
 	public void deleteNode(int val) {
 
 	}

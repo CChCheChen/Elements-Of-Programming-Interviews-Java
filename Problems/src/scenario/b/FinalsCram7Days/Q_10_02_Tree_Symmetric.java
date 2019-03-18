@@ -3,6 +3,16 @@ package scenario.b.FinalsCram7Days;
 import commonDataStructures.BinaryTreeImp;
 import commonDataStructures.TreeNode;
 
+/*
+10.2 TEST IF A BINARY TREE IS SYMMETRIC
+
+A binary tree is symmetric if you can draw a vertical line through the root and then the left subtree is the mirror image of the right subtree. 
+ 
+Write a program that checks whether a binary tree is symmetric.
+
+Hint: The definition of symmetry is recursive.
+
+ */
 public class Q_10_02_Tree_Symmetric {
 	public static void main(String[] args) {
 		BinaryTreeImp tree = new BinaryTreeImp();
